@@ -29,7 +29,7 @@ const booksE2e = (size) => {
       name: faker.commerce.product(),
       year: faker.date.past(),
       price: faker.commerce.price(),
-      author: faker.person.firstName()
+      author: faker.person.firstName(),
     };
     booksArray.push(booksFakes);
   }
