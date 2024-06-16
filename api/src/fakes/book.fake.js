@@ -34,6 +34,6 @@ const booksE2e = (size) => {
     booksArray.push(booksFakes);
   }
   return booksArray;
-}
+};
 
 module.exports = { bookGenerate, bookManyGenerate, booksE2e };
